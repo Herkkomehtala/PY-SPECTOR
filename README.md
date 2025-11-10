@@ -14,7 +14,7 @@ A simple Python tool to scan Windows PE files for version information and sectio
 
 1.  Clone the repository:
     ```sh
-    git clone [https://github.com/Herkkomehtala/PY-SPECTOR)
+    git clone https://github.com/Herkkomehtala/PY-SPECTOR
     cd PY-SPECTOR
     ```
 2.  Install the required dependencies:
@@ -35,9 +35,9 @@ Use `bin_analyzer.py` to scan a target. The database file will be created in you
 # Scan C:\Windows and save results to 'windows_scan.db'
 python bin_analyzer.py "C:\Windows" -db windows_scan.db
 
-**Scan a single file:**
+# Or scan a single file:
 
-```sh
+
 # Scan notepad.exe and use the default 'binary_info.db'
 python bin_analyzer.py "C:\Windows\System32\notepad.exe"
 ```
