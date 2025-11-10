@@ -37,7 +37,6 @@ python bin_analyzer.py "C:\Windows" -db windows_scan.db
 
 # Or scan a single file:
 
-
 # Scan notepad.exe and use the default 'binary_info.db'
 python bin_analyzer.py "C:\Windows\System32\notepad.exe"
 ```
