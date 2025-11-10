@@ -53,7 +53,7 @@ python queries/query_tool.py -db windows_scan.db high_entropy
 
 # Specify a custom threshold
 python queries/query_tool.py -db windows_scan.db high_entropy --threshold 6.0
---- Querying Database: C:\Users\user\PE-SPECTOR\binary_info.db ---
+--- Querying Database: C:\Users\user\PE-SPECTOR\windows_scan.db ---
 [*] Querying for files with avg. entropy > 6.0...
 
   --- Found 2 matching files ---
@@ -67,7 +67,7 @@ python queries/query_tool.py -db windows_scan.db high_entropy --threshold 6.0
 
 ```sh
 python queries/query_tool.py -db windows_scan.db missing_info
---- Querying Database: C:\Users\user\PE-SPECTOR\binary_info.db ---
+--- Querying Database: C:\Users\user\PE-SPECTOR\windows_scan.db ---
 [*] Querying for files with missing version info...
 
   --- Found 91 matching files ---
@@ -82,7 +82,7 @@ python queries/query_tool.py -db windows_scan.db missing_info
 
 ```sh
 python queries/query_tool.py -db windows_scan.db text_section --threshold 7.0
---- Querying Database: C:\Users\user\PE-SPECTOR\binary_info.db ---
+--- Querying Database: C:\Users\user\PE-SPECTOR\windows_scan.db ---
 
   --- Found 10 matching files ---
   ('Path', '.text Entropy', 'Product')
